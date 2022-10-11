@@ -2,7 +2,7 @@
 
 A tech blog where I share my perspective and tech related adventures or experiences. 
 
-> Live demo, click [_here_](https://learntor.netlify.app/).
+> Live demo, click [_here_](https://michaelomorakablog.netlify.app/).
 
 ## Table of Contents
 
