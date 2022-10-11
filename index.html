@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Michael Omoraka Personal Blog</title>
+
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+
+    <!--
+    - favicon
+  -->
+    <link rel="icon" href="assets/images/favicon.png" type="image/x-icon" />
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="light-theme">
+    <!--
+    - #HEADER
+  -->
+
+    <header>
+      <div class="container">
+        <nav class="navbar">
+          <a href="#">
+            <img
+              src="./assets/images/logo.png"
+              alt="logo"
+              width="150"
+              class="logo-light"
+            />
+            <img
+              src="./assets/images/logo.png"
+              alt="logo"
+              width="150"
+              class="logo-dark"
+            />
+          </a>
+
+          <div class="btn-group">
+            <button class="theme-btn theme-btn-mobile light">
+              <ion-icon name="moon" class="moon"></ion-icon>
+              <ion-icon name="sunny" class="sun"></ion-icon>
+            </button>
+
+            <button class="nav-menu-btn">
+              <ion-icon name="menu-outline"></ion-icon>
+            </button>
+          </div>
+
+          <div class="flex-wrapper">
+            <ul class="desktop-nav">
+              <li>
+                <a href="#" class="nav-link">Home</a>
+              </li>
+
+              <li>
+                <a href="#" class="nav-link">About Me</a>
+              </li>
+
+              <li>
+                <a href="#" class="nav-link">Contact</a>
+              </li>
+            </ul>
+
+            <button class="theme-btn theme-btn-desktop light">
+              <ion-icon name="moon" class="moon"></ion-icon>
+              <ion-icon name="sunny" class="sun"></ion-icon>
+            </button>
+          </div>
+
+          <div class="mobile-nav">
+            <button class="nav-close-btn">
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="wrapper">
+              <p class="h3 nav-title">Main Menu</p>
+
+              <ul>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Home</a>
+                </li>
+
+                <li class="nav-item">
+                  <a href="#" class="nav-link">About Me</a>
+                </li>
+
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Contact</a>
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <p class="h3 nav-title">Topics</p>
+
+              <ul>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Web Performance</a>
+                </li>
+
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Framework</a>
+                </li>
+
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Database</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!--
+      - #HERO SECTION
+    -->
+
+      <div class="hero">
+        <div class="container">
+          <div class="left">
+            <h1 class="h1">
+              Hi, I'm <b>Michael&nbsp;Omoraka</b>. <br />A Web Developer
+            </h1>
+
+            <!-- <p class="h3">
+            Nice to meet you
+          </p> -->
+
+            <div class="btn-group">
+              <a href="#" class="btn btn-primary">Contact Me</a>
+              <!-- <a href="#" class="btn btn-secondary">About Me</a> -->
+            </div>
+          </div>
+
+          <div class="right">
+            <div class="pattern-bg"></div>
+            <div class="img-box">
+              <img
+                src="./assets/images/Profile.jpg"
+                alt="Michael Omoraka"
+                class="hero-img"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="main">
+        <div class="container">
+          <!--
+          - BLOG SECTION
+        -->
+
+          <div class="blog">
+            <h2 class="h2">Latest Blog Post</h2>
+
+            <div class="blog-card-group">
+              <div class="blog-card">
+                <div class="blog-card-banner">
+                  <img
+                    src="./assets/images/blog-1.jpg"
+                    alt=""
+                    width="250"
+                    class="blog-banner-img"
+                  />
+                </div>
+
+                <div class="blog-content-wrapper">
+                  <button class="blog-topic text-tiny">Database</button>
+
+                  <h3>
+                    <a href="#" class="h3">
+                      What is Search Engine Optimization
+                    </a>
+                  </h3>
+
+                  <p class="blog-text">
+                    Search engine optimization is the process of improving the
+                    quality and quantity of website traffic to a website or a
+                    web page from search engines.
+                  </p>
+
+                  <div class="wrapper-flex">
+                    <div class="profile-wrapper">
+                      <img
+                        src="./assets/images/author.jpg"
+                        alt="Michael Omoraka"
+                        width="50"
+                      />
+                    </div>
+
+                    <div class="wrapper">
+                      <a href="#" class="h4">Michael Omoraka</a>
+
+                      <p class="text-sm">
+                        <time datetime="2022-01-17">September 1, 2022</time>
+                        <span class="separator"></span>
+                        <ion-icon name="time-outline"></ion-icon>
+                        <time datetime="PT3M">1 min</time>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="blog-card">
+                <div class="blog-card-banner">
+                  <img
+                    src="./assets/images/blog-2.png"
+                    alt=""
+                    width="250"
+                    class="blog-banner-img"
+                  />
+                </div>
+
+                <div class="blog-content-wrapper">
+                  <button class="blog-topic text-tiny">Framework</button>
+
+                  <h3><a href="" class="h3">Introduction to vue.js</a></h3>
+
+                  <p class="blog-text">
+                    Vue is a modern JavaScript framework that provides useful
+                    facilities for progressive enhancement...
+                  </p>
+
+                  <div class="wrapper-flex">
+                    <div class="profile-wrapper">
+                      <img
+                        src="./assets/images/author.jpg"
+                        alt="Michael Omoraka"
+                        width="50"
+                      />
+                    </div>
+
+                    <div class="wrapper">
+                      <a href="#" class="h4">Michael Omoraka</a>
+
+                      <p class="text-sm">
+                        <time datetime="2021-12-10">July 15, 2022</time>
+                        <span class="separator"></span>
+                        <ion-icon name="time-outline"></ion-icon>
+                        <time datetime="PT2M">3 min</time>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="blog-card">
+                <div class="blog-card-banner">
+                  <img
+                    src="./assets/images/blog-3.png"
+                    alt=""
+                    width="250"
+                    class="blog-banner-img"
+                  />
+                </div>
+
+                <div class="blog-content-wrapper">
+                  <button class="blog-topic text-tiny">Framework</button>
+
+                  <h3><a href="" class="h3">Introduction to React.js</a></h3>
+
+                  <p class="blog-text">
+                    React is a free and open-source front-end JavaScript library
+                    for building user interfaces based on UI components...
+                  </p>
+
+                  <div class="wrapper-flex">
+                    <div class="profile-wrapper">
+                      <img
+                        src="./assets/images/author.jpg"
+                        alt="Michael Omoraka"
+                        width="50"
+                      />
+                    </div>
+
+                    <div class="wrapper">
+                      <a href="#" class="h4">Michael Omoraka</a>
+
+                      <p class="text-sm">
+                        <time datetime="2021-11-28">June 7, 2022</time>
+                        <span class="separator"></span>
+                        <ion-icon name="time-outline"></ion-icon>
+                        <time datetime="PT4M">2 min</time>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="blog-card">
+                <div class="blog-card-banner">
+                  <img
+                    src="./assets/images/blog-4.png"
+                    alt=""
+                    width="250"
+                    class="blog-banner-img"
+                  />
+                </div>
+
+                <div class="blog-content-wrapper">
+                  <button class="blog-topic text-tiny">Database</button>
+
+                  <h3>
+                    <a href="" class="h3">How to Connect Node.js to MongoDB</a>
+                  </h3>
+
+                  <p class="blog-text">
+                    To connect a Node. js application to MongoDB, we have to use
+                    a library called Mongoose. mongoose.
+                    connect("mongodb://localhost:27017/collectionName", {
+                    useNewUrlParser: true, useUnifiedTopology: true });
+                  </p>
+
+                  <div class="wrapper-flex">
+                    <div class="profile-wrapper">
+                      <img
+                        src="./assets/images/author.jpg"
+                        alt="Michael Omoraka"
+                        width="50"
+                      />
+                    </div>
+
+                    <div class="wrapper">
+                      <a href="#" class="h4">Michael Omoraka</a>
+
+                      <p class="text-sm">
+                        <time datetime="2021-11-20">May 10, 2022</time>
+                        <span class="separator"></span>
+                        <ion-icon name="time-outline"></ion-icon>
+                        <time datetime="PT4M">1 min</time>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="blog-card">
+                <div class="blog-card-banner">
+                  <img
+                    src="./assets/images/blog-5.png"
+                    alt=""
+                    width="250"
+                    class="blog-banner-img"
+                  />
+                </div>
+
+                <div class="blog-content-wrapper">
+                  <button class="blog-topic text-tiny">Database</button>
+
+                  <h3><a href="" class="h3">Introduction to MongoDB</a></h3>
+
+                  <p class="blog-text">
+                    MongoDB is a NoSQL database which stores the data in form of
+                    key-value pairs. It is an Open Source, Document Database
+                    which provides high performance and ...
+                  </p>
+
+                  <div class="wrapper-flex">
+                    <div class="profile-wrapper">
+                      <img
+                        src="./assets/images/author.jpg"
+                        alt="Michael Omoraka"
+                        width="50"
+                      />
+                    </div>
+
+                    <div class="wrapper">
+                      <a href="#" class="h4">Michael Omoraka</a>
+
+                      <p class="text-sm">
+                        <time datetime="2021-11-10">March 5, 2022</time>
+                        <span class="separator"></span>
+                        <ion-icon name="time-outline"></ion-icon>
+                        <time datetime="PT3M">2 min</time>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="blog-card">
+                <div class="blog-card-banner">
+                  <img
+                    src="./assets/images/blog-6.jpg"
+                    alt=""
+                    width="250"
+                    class="blog-banner-img"
+                  />
+                </div>
+
+                <div class="blog-content-wrapper">
+                  <button class="blog-topic text-tiny">Web Performance</button>
+
+                  <h3>
+                    <a href="" class="h3">How to Make a Wesite Load Faster</a>
+                  </h3>
+
+                  <p class="blog-text">
+                    Site loading speed is a critical thing to consider as this
+                    can improve the performance of your website. in this article
+                    I will share with you ways to make your website load
+                    faster...
+                  </p>
+
+                  <div class="wrapper-flex">
+                    <div class="profile-wrapper">
+                      <img
+                        src="./assets/images/author.jpg"
+                        alt="Michael Omoraka"
+                        width="50"
+                      />
+                    </div>
+
+                    <div class="wrapper">
+                      <a href="#" class="h4">Michael Omoraka</a>
+
+                      <p class="text-sm">
+                        <time datetime="2021-10-25">February 8, 2022</time>
+                        <span class="separator"></span>
+                        <ion-icon name="time-outline"></ion-icon>
+                        <time datetime="PT7M">3 min</time>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="blog-card">
+                <div class="blog-card-banner">
+                  <img
+                    src="./assets/images/blog-7.jpeg"
+                    alt=""
+                    width="250"
+                    class="blog-banner-img"
+                  />
+                </div>
+
+                <div class="blog-content-wrapper">
+                  <button class="blog-topic text-tiny">Web Performance</button>
+
+                  <h3>
+                    <a href="" class="h3"
+                      >REST API Performance Tuning: Getting Started</a
+                    >
+                  </h3>
+
+                  <p class="blog-text">
+                    Representational State Transfer, commonly known with the
+                    acronym REST, is an architectural style which deals with
+                    creation of web services...
+                  </p>
+
+                  <div class="wrapper-flex">
+                    <div class="profile-wrapper">
+                      <img
+                        src="./assets/images/author.jpg"
+                        alt="Michael Omoraka"
+                        width="50"
+                      />
+                    </div>
+
+                    <div class="wrapper">
+                      <a href="#" class="h4">Michael Omoraka</a>
+
+                      <p class="text-sm">
+                        <time datetime="2021-10-15">January 6, 2022</time>
+                        <span class="separator"></span>
+                        <ion-icon name="time-outline"></ion-icon>
+                        <time datetime="PT5M">2 min</time>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <button class="btn load-more">Load More</button>
+          </div>
+
+          <!--
+          - ASIDE
+        -->
+
+          <div class="aside">
+            <div class="topics">
+              <h2 class="h2">Topics</h2>
+
+              <a href="#" class="topic-btn">
+                <div class="icon-box">
+                  <ion-icon name="rocket-outline"></ion-icon>
+                </div>
+
+                <p>Web Performance</p>
+              </a>
+
+              <a href="#" class="topic-btn">
+                <div class="icon-box">
+                  <ion-icon name="accessibility-outline"></ion-icon>
+                </div>
+
+                <p>Framework</p>
+              </a>
+
+              <a href="#" class="topic-btn">
+                <div class="icon-box">
+                  <ion-icon name="server-outline"></ion-icon>
+                </div>
+
+                <p>Database</p>
+              </a>
+            </div>
+
+            <div class="tags">
+              <h2 class="h2">Tags</h2>
+
+              <div class="wrapper">
+                <button class="hashtag">#optimization</button>
+                <button class="hashtag">#vue</button>
+                <button class="hashtag">#how</button>
+                <button class="hashtag">#react</button>
+                <button class="hashtag">#mongoDB</button>
+                <button class="hashtag">#introduction</button>
+              </div>
+            </div>
+
+            <div class="contact">
+              <h2 class="h2">Let's Talk</h2>
+
+              <div class="wrapper">
+                <p>
+                  If you need my assistance or want us to discuss trending
+                  topics I will love to hear from you. We can even grab a cup of
+                  coffee.
+                </p>
+
+                <ul class="social-link">
+                  <li>
+                    <a href="#" class="icon-box linkedin">
+                      <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="#" class="icon-box github">
+                      <i class="fa-brands fa-github"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="newsletter">
+              <h2 class="h2">Newsletter</h2>
+
+              <div class="wrapper">
+                <p>
+                  Subscribe to our newsletter to stay updated to latest posts.
+                </p>
+
+                <form action="#">
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="Email Address"
+                    required
+                  />
+
+                  <button type="submit" class="btn btn-primary">
+                    Subscribe
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!--
+    - #FOOTER
+  -->
+
+    <footer>
+      <div class="container">
+        <div class="wrapper">
+          <a href="#" class="footer-logo">
+            <img
+              src="./assets/images/logo.png"
+              alt="logo"
+              width="150"
+              class="logo-light"
+            />
+            <img
+              src="./assets/images/logo.png"
+              alt="logo"
+              width="150"
+              class="logo-dark"
+            />
+          </a>
+
+          <p class="footer-text">
+            Learn about Framework, Web performance, and Database management.
+          </p>
+        </div>
+
+        <div class="wrapper">
+          <p class="footer-title">Permalinks</p>
+
+          <ul>
+            <li>
+              <a href="#" class="footer-link">Home</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">About Us</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="wrapper">
+          <p class="footer-title">Privacy</p>
+
+          <ul>
+            <li>
+              <a href="#" class="footer-link">Privacy Policy</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Cookie Policy</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Terms & Condition</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <p class="copyright">&copy; Copyright 2022</p>
+    </footer>
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
